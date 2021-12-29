@@ -11,12 +11,12 @@ sudo cp nativo-prog /usr/share/X11/xkb/symbols/nativo-prog
 ```
 sudo dpkg-reconfigure xkb-data
 ```
-3. Seleciona a teclado
+3. Seleciona o teclado
 ```
 setxkbmap nativo-prog
 ```
 
-Também é preciso atualizar o arquivo evdev.xml, dentro da lista de teclados BR e próximo oas teclados nativo.
+Também é preciso atualizar o arquivo evdev.xml, adicionando a variante nativo-prog dentro da lista de teclados BR e próximo aos teclados nativo.
 `sudo vim /usr/share/X11/xkb/rules/evdev.xml`
 
 ```
