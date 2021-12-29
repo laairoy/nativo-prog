@@ -5,6 +5,8 @@ Adicionando o teclado em sistemas baseados no Ubuntu.
 
 1. Copia o layout para a pasta do sistema
 ```
+sudo cp nativo-prog /usr/share/X11/xkb/symbols/nativo-prog
+```
 2. Atualize as configurações do sistema
 ```
 sudo dpkg-reconfigure xkb-data
