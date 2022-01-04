@@ -1,5 +1,6 @@
 Usando Ubuntu
 -----------
+Adicionando o teclado em sistemas baseados no Ubuntu.
 
 ### Script para Instalação 
 É possível utilizar o script `install.sh` para instalar o layout.
@@ -13,11 +14,10 @@ sudo ./install.sh --restore
 ```
 
 ### Instalação Manual
-Adicionando o teclado em sistemas baseados no Ubuntu.
 
-1. Copia o layout para o final do arquivo `/usr/share/X11/xkb/symbols/nativo-prog`
+1. Copia o layout para o final do arquivo `/usr/share/X11/xkb/symbols/br`
 ```
-sudo nativo-prog >> /usr/share/X11/xkb/symbols/nativo-prog
+sudo nativo-prog >> /usr/share/X11/xkb/symbols/br
 ```
 2. Atualize as configurações do sistema
 ```
@@ -28,7 +28,7 @@ sudo dpkg-reconfigure xkb-data
 setxkbmap nativo-prog
 ```
 
-Também é preciso atualizar o arquivo evdev.xml, adicionando a variante nativo-prog dentro da lista de teclados BR e próximo aos teclados nativo.
+4. Também é preciso atualizar o arquivo evdev.xml, adicionando a variante nativo-prog dentro da lista de teclados BR e próximo aos teclados nativo.
 `sudo vim /usr/share/X11/xkb/rules/evdev.xml`
 
 ```
