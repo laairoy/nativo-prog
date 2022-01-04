@@ -1,11 +1,23 @@
 Usando Ubuntu
 -----------
 
+### Script para Instalação 
+É possível utilizar o script `install.sh` para instalar o layout.
+1. Para instalação utilizar o comando:
+```
+sudo ./install.sh --install
+```
+2. O script faz um backup dos arquivos alterados, para retaurar utilizar o comando:
+```
+sudo ./install.sh --restore
+```
+
+### Instalação Manual
 Adicionando o teclado em sistemas baseados no Ubuntu.
 
-1. Copia o layout para a pasta do sistema
+1. Copia o layout para o final do arquivo `/usr/share/X11/xkb/symbols/nativo-prog`
 ```
-sudo cp nativo-prog /usr/share/X11/xkb/symbols/nativo-prog
+sudo nativo-prog >> /usr/share/X11/xkb/symbols/nativo-prog
 ```
 2. Atualize as configurações do sistema
 ```

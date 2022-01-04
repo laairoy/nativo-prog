@@ -6,5 +6,9 @@ As mudanças no layout foram motivadas pelo layout [Real Progammers Dvorak](http
 
 * Os símbolos frequentemente utilizados na programação **(, ), {, }, [, ]** foram alterados para a abertura ocorrer com a mão esquerda e o fechamento com a mão direita.
 
+## Instalação
+- Sistemas com configuração de instação:
+	- [Ubuntu](./ubuntu)
+
 ## Pré-visualização
 ![nativo-prog](./nativo-prog.png)
