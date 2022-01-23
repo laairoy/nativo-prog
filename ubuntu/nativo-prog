@@ -71,13 +71,14 @@ xkb_symbols "nativo-prog" {
 
     key <SPCE> { [        space,           space,         nobreakspace,     nobreakspace ] };
 
-    key <CAPS> { [Escape]};
-    key <ESC>  {[Caps_Lock]};
 
 // Configures the "," for the numeric keypad
     include "kpdl(comma)"
 
 // Configures the use of the AltGr key
     include "level3(ralt_switch)"
+
+// configure to use capslock as esc and shift+capslock as capslock
+    include "capslock(escape_shifted_capslock)"
 };
 
