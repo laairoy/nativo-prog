@@ -5,6 +5,8 @@ Este layout de teclado é uma variação do [br-nativo](https://pt.wikipedia.org
 As mudanças no layout foram motivadas pelo layout [Real Progammers Dvorak](https://github.com/ThePrimeagen/keyboards).
 
 * Os símbolos frequentemente utilizados na programação **(, ), {, }, [, ]** foram alterados para a abertura ocorrer com a mão esquerda e o fechamento com a mão direita.
+* Capslock funciona como o Esc
+* Shift+Capslock funciona como o Capslock
 
 ## Instalação
 - Sistemas com configuração de instação:
