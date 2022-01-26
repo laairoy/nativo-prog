@@ -1,8 +1,8 @@
 ## Nativo For programmers
-this keyboard layout is a variant from [br-nativo](https://pt.wikipedia.org/wiki/BR-Nativo), with changes to make more confortable to code.
+This keyboard layout is a variant from [br-nativo](https://pt.wikipedia.org/wiki/BR-Nativo), with changes to make more confortable to code.
 
 ## Modifications
-This mod are motivated by [Real Progammers Dvorak](https://github.com/ThePrimeagen/keyboards) layout.
+This mod are motivated by [Real Programmers Dvorak](https://github.com/ThePrimeagen/keyboards) layout.
 
 * The symbols frequentily used in code **(, ), {, }, [, ]** are changed to be open with left hand and to be closed with right hand. 
 * CapsLock works like Esc
