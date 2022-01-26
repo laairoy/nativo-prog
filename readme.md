@@ -1,5 +1,5 @@
 ## Nativo For programmers
-This keyboard layout is a variant from [br-nativo](https://pt.wikipedia.org/wiki/BR-Nativo), with changes to make more confortable to code.
+This keyboard layout is a variant from [br-nativo](https://pt.wikipedia.org/wiki/BR-Nativo), with changes to make more confortable to coding.
 
 ## Modifications
 This mod are motivated by [Real Programmers Dvorak](https://github.com/ThePrimeagen/keyboards) layout.
