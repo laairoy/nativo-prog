@@ -30,9 +30,9 @@ setxkbmap -layout br -variant nativo-prog
 ```
 
 
-4. You need to update the `envdev.xml` file and add a variant `nativo-prog´ inside br variantlist tag.
+4. You need to update the `envdev.xml` file and add a variant `nativo-prog` inside br variantlist tag.
 `sudo vim /usr/share/X11/xkb/rules/evdev.xml`
-```
+```xml
 <name>br</name>
 <!-- Keyboard indicator for Portuguese layouts -->
 	<shortDescription>pt</shortDescription>
@@ -49,7 +49,7 @@ setxkbmap -layout br -variant nativo-prog
 ```
 
 5. Put this variant inside:
-```
+```xml
 <variant>
     <configItem>
         <name>nativo-prog</name>
