@@ -1,15 +1,17 @@
-## Nativo Para programadores
-Este layout de teclado é uma variação do [br-nativo](https://pt.wikipedia.org/wiki/BR-Nativo), com alterações para facilitar a digitação como programador.
+## Nativo For programmers
+this keyboard layout is a variant from [br-nativo](https://pt.wikipedia.org/wiki/BR-Nativo), with changes to make more confortable to code.
 
-## Mudanças
-As mudanças no layout foram motivadas pelo layout [Real Progammers Dvorak](https://github.com/ThePrimeagen/keyboards).
+## Modifications
+This mod are motivated by [Real Progammers Dvorak](https://github.com/ThePrimeagen/keyboards) layout.
 
-* Os símbolos frequentemente utilizados na programação **(, ), {, }, [, ]** foram alterados para a abertura ocorrer com a mão esquerda e o fechamento com a mão direita.
-* Capslock funciona como o Esc
-* Shift+Capslock funciona como o Capslock
+* The symbols frequentily used in code **(, ), {, }, [, ]** are changed to be open with left hand and to be closed with right hand. 
+* CapsLock works like Esc
+* Shift+CapsLock works like Capslock
+* NumLock invert numeric row
+* Pause works like NumLock (for keyboards without NumLock)
 
-## Instalação
-- Sistemas com configuração de instação:
+## Instalation
+- Supported systems:
 	- [Ubuntu](./ubuntu)
 
 ## Pré-visualização
